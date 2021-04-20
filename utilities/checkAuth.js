@@ -13,7 +13,7 @@ export default (context) => {
   }
 
   try {
-    return jwt.verify(token, process.env.JWT_SECRET);
+    return jwt.verify(token, "dsk4fjgh4bsg5gchj98kg0cjh");
   } catch (error) {
     throw new AuthenticationError("Invalid token", error);
   }

@@ -12,7 +12,7 @@ function generateToken(user) {
       email: user.email,
       username: user.username,
     },
-    process.env.JWT_SECRET,
+    "dsk4fjgh4bsg5gchj98kg0cjh",
     { expiresIn: "48h" }
   );
 }
